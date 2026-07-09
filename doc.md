@@ -61,6 +61,24 @@
 - 
 
 
+## Definições técnicas
+
+### GitHub
+
+- Fluxo:
+    1. Criar branch a partir de `DEVELOP`
+    2. Desenvolver
+    3. Abrir PR para `DEVELOP`
+    4. ...
+
+- Padrão de formato de branchs:
+    - ex: `features/#0001-Tarefa-tal`
+- Commits: `feat`, `fix`, `bugfix` ... 
+    - ex: `#0001 fix: Removendo comentarios desnecessarios`
+    - seguindo https://www.conventionalcommits.org/en/v1.0.0/
+- 
+
+
 ## Prompts de uso para o projeto
 
 Estou querendo criar um sistema do zero, simples, com a funcionalidade de gerenciamento de tarefas separando por quadros, onde é possível visualizar em forma de kanban ou em forma de calendário, permitindo multiplos usuários utilizarem quadros em conjunto. Além disso, outro tipo de quadro para gerenciador de finanças, onde quero poder importar arquivos pdf que serão lidos para buscar dados específicos para preencher informações financeiras, quero também poder integrar com outros sistemas de cartão de crédito, onde importarei dados de gastos de cartões para adicionar no controle financeiro. Quero poder trabalhar em conjunto com outros desenvolvedores. 
